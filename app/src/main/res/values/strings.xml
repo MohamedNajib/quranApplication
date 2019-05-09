@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">New Application</string>
+
+    <string name="KFC_NASKH_WEBFONT">KFC_NASKH_WEBFONT</string>
+    <string name="ME_QURAN_WEBFONT">ME_QURAN_WEBFONT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
