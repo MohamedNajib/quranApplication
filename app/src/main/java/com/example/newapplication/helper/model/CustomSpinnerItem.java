@@ -1,4 +1,4 @@
-package com.example.newapplication.adapter;
+package com.example.newapplication.helper.model;
 
 public class CustomSpinnerItem {
 

@@ -3,7 +3,6 @@ package com.example.newapplication.adapter;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.constraint.ConstraintLayout;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import com.example.newapplication.R;
+import com.example.newapplication.helper.model.CustomSpinnerItem;
 
 import java.util.ArrayList;
 import java.util.Objects;

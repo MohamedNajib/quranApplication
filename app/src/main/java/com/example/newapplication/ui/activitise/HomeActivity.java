@@ -1,11 +1,17 @@
-package com.example.newapplication;
+package com.example.newapplication.ui.activitise;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.widget.ImageButton;
 
+import com.example.newapplication.R;
+import com.example.newapplication.ui.fragment.ReadingFragment;
+import com.example.newapplication.ui.fragment.SebhaFragment;
 import com.example.newapplication.adapter.ViewPagerTapsAdapter;
+import com.example.newapplication.customFont.TextViewCustomFont;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

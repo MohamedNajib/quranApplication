@@ -1,4 +1,4 @@
-package com.example.newapplication;
+package com.example.newapplication.ui.activitise;
 
 import android.content.Intent;
 import android.os.Build;
@@ -7,6 +7,9 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
 import android.view.WindowManager;
+
+import com.example.newapplication.R;
+import com.example.newapplication.helper.HelperMethod;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -29,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run() {
-                startActivity(new Intent(MainActivity.this, HomeActivity.class));
+                HelperMethod.intentTo(MainActivity.this, HomeActivity.class);
                 finish();
             }
         }, SPLASH_DISPLAY_LENGTH);

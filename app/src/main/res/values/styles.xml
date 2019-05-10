@@ -15,6 +15,10 @@
         <attr name="fontName" />
     </declare-styleable>
 
+    <declare-styleable name="ButtonCustomFont">
+        <attr name="fontName" />
+    </declare-styleable>
+
     <!-- HomeFragment TabLayout Style -->
     <style name="AppTabLayout" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">@color/colorYellow</item>

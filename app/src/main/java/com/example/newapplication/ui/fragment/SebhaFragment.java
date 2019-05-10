@@ -1,4 +1,4 @@
-package com.example.newapplication;
+package com.example.newapplication.ui.fragment;
 
 
 import android.os.Bundle;
@@ -9,8 +9,9 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.Spinner;
 
+import com.example.newapplication.R;
 import com.example.newapplication.adapter.CustomSpinnerAdapter;
-import com.example.newapplication.adapter.CustomSpinnerItem;
+import com.example.newapplication.helper.model.CustomSpinnerItem;
 
 import java.util.ArrayList;
 
@@ -64,9 +65,11 @@ public class SebhaFragment extends Fragment {
 
     private ArrayList<CustomSpinnerItem> getCustomList() {
         customList = new ArrayList<>();
-        customList.add(new CustomSpinnerItem("lnljnljnljnlj"));
-        customList.add(new CustomSpinnerItem("lnljnljnljnlj"));
-        customList.add(new CustomSpinnerItem("lnljnljnljnlj"));
+        customList.add(new CustomSpinnerItem("استغفر الله"));
+        customList.add(new CustomSpinnerItem("سبحان الله"));
+        customList.add(new CustomSpinnerItem("الحمدلله"));
+        customList.add(new CustomSpinnerItem("لا اله الا الله"));
+        customList.add(new CustomSpinnerItem("الله اكبر"));
 
         return customList;
     }

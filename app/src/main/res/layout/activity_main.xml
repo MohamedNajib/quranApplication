@@ -6,6 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/splash"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".ui.activitise.MainActivity">
 
 </android.support.constraint.ConstraintLayout>
